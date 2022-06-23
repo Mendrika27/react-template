@@ -26,37 +26,77 @@ export default function Client(){
             </div>
             <div className={"jumbotron d-flex"}>
                 <Card size={3}
-                      header={"today"}
-                      body={"today's trip list"}
-                      footer={"Footer"}/>
+                      header={"Voyage du jours"}
+                      body={<p>
+                        Antananarivo - Antsirabe <br/>
+
+                        09 heures - 10 heures <br/>
+
+                        Fianarantsoa - Antananarivo <br/>
+
+                        16 heures - 19 heures
+                      </p>}
+                />
 
                 <Card size={6}
-                      header={"tomorrow"}
-                      body={"tomorrow's trip list"}
-                      footer={"Footer"}/>
+                      header={"A venir"}
+                      body={
+                        <p>
+                        Diego - Antananarivo <br/>
+
+                        08 heures - 12 heures <br/>
+
+                        Morondava - Toamasina <br/>
+
+                        10 heures - 13 heures
+                      </p>
+                      }
+                />
 
                 <Card size={3}
                       header={"Most visited sites"}
-                      body={"HEI"}
-                      footer={"Footer"}/>
+                      body={<p><br/>
+                        Cotisse Transport Madagascar
+                      </p>}
+                />
             </div>
             {/*just make sure that size sum <=12*/}
             <div className={"jumbotron d-flex"}>
                 <Card size={4}
-                      header={""}
-                      body={""}
-                      footer={""}
+                      header={"Nos Destinations"}
+                      body={
+                        <p>
+                            Antananarivo - Toamasina <br/><br/>
+
+                            Antananarivo - Mahajanga <br/><br/>
+
+                            Antananarivo - Diego
+                        </p>
+                      }
                 />
 
                 <Card size={4}
-                      header={""}
-                      body={""}
-                      footer={""}
+                      header={"Nos offres"}
+                      body={<p>
+                        Prémium <br/>
+                        Lite <br/>
+                        Prémium <br/>
+                        Lite<br/>
+                        Prémium <br/>
+                        Lite
+                      </p>}
                 />
 
                 <Card size={4}
-                      header={""}
-                      body={""}
+                      header={"Nos Tarifs"}
+                      body={<p>
+                        15 000 Ar <br/>
+                        20 000 Ar <br/>
+                        40 000 Ar <br/>
+                        50 000 Ar <br/>
+                        35 000 Ar <br/>
+                        45 000 Ar
+                      </p>}
                       footer={""}
                 />
             </div>
