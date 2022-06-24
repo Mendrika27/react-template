@@ -12,7 +12,11 @@ export default function Client(){
                           header={"Booking Form"}
                           body={
                               <div>
-                                  Booking Form
+                                  <form>
+                                    <select className="select">
+                                      <option>Antananarivo</option>
+                                    </select>
+                                  </form>
                               </div>
                           }
                           footer={
@@ -66,9 +70,9 @@ export default function Client(){
                       header={"Nos Destinations"}
                       body={
                         <p>
-                            Antananarivo - Toamasina <br/><br/>
+                            Antananarivo - Toamasina <br/><br/><br/>
 
-                            Antananarivo - Mahajanga <br/><br/>
+                            Antananarivo - Mahajanga <br/><br/><br/>
 
                             Antananarivo - Diego
                         </p>
@@ -79,9 +83,9 @@ export default function Client(){
                       header={"Nos offres"}
                       body={<p>
                         Prémium <br/>
-                        Lite <br/>
+                        Lite <br/><br/>
                         Prémium <br/>
-                        Lite<br/>
+                        Lite<br/><br/>
                         Prémium <br/>
                         Lite
                       </p>}
@@ -91,9 +95,9 @@ export default function Client(){
                       header={"Nos Tarifs"}
                       body={<p>
                         15 000 Ar <br/>
-                        20 000 Ar <br/>
+                        20 000 Ar <br/><br/>
                         40 000 Ar <br/>
-                        50 000 Ar <br/>
+                        50 000 Ar <br/><br/>
                         35 000 Ar <br/>
                         45 000 Ar
                       </p>}
